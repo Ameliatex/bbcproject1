@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search on Firefox",
+        "description": "",
+        "id": "search;search-on-firefox",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25633166497,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to bbc homepage",
+            "match": {
+              "location": "searchsteps.iNavigateToBbcHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345633852,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on search box",
+            "match": {
+              "location": "searchsteps.iClickOnSearchBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177880518,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter text",
+            "match": {
+              "location": "searchsteps.iEnterText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166325142,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on the search button",
+            "match": {
+              "location": "searchsteps.iClickOnTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5018558803,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see world cup information",
+            "match": {
+              "location": "searchsteps.iShouldSeeWorldCupInformation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "This is to test Search field",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
